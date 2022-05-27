@@ -5,7 +5,7 @@
 
   .chatBot {
     position: relative;
-    width: 351px;
+    min-width: 351px;
     height: 617px;
 
     background: #ffffff;
@@ -102,12 +102,14 @@
 
       .poweredBy {
         position: absolute;
-        bottom: 0;
-        left: 35%;
-        font-size: small;
+        bottom: 0.5%;
+        left: 40%;
+        font-size: 11px;
         font-weight: 400;
+        color: gray;
         :nth-child(2) {
           font-weight: 600;
+          color: black;
         }
       }
     }
