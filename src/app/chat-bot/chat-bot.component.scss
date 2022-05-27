@@ -1,0 +1,46 @@
+.parentWrapper {
+  position: absolute;
+  bottom: 2%;
+  right: 1%;
+
+  .chatBot {
+    position: relative;
+    width: 351px;
+    height: 617px;
+
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.2);
+
+    .header {
+      height: 215px;
+      border-radius: 16px 16px 0 0;
+      background: linear-gradient(109.44deg, #0040ff 1.32%, #0b3bca 99.1%);
+
+      .headerTitle {
+        position: absolute;
+        // width: 127px;
+        height: 34px;
+        left: 32px;
+        top: 116px;
+        // font-family: 'Proxima Nova Soft';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #ffffff;
+      }
+    }
+    .body {
+    }
+    .actionArea {
+      position: absolute;
+      // width: 351px;
+      height: 84px;
+      left: 0px;
+      bottom: 0px;
+
+      background: #ffffff;
+    }
+  }
+}
